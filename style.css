@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    background-color: #14213d;
+    display: flex;
+    padding: 32px;
+    align-items: center;
+    justify-content: space-between;
+}
+.left > p {
+    font-family: monospace;
+    font-weight: 800;
+    color: white;
+    font-size: 1.25rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.left, .right {
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    font-family: "Helvetica", sans-serif;
+    color: white;
+    list-style: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    background-color: #14213d;
+    color: white;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.content-container > p {
+    font-family: Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+img {
+    width: 650px;
+    height: 300px;
+    border-radius: 32px;
+}
+
+.cta-btn {
+    background-color: #fca311;
+    font-weight: 700;
+    color: black;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+} 
+
+.cards-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.box > img { 
+    width: 100px;
+    height: 100px;
+}
+
+#title-cards {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.quote-container {
+    background-color: #e5e5e5;
+    padding: 60px;
+}
+
+#quote, #author {
+    text-align: justify;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.banner-container {
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background-color: #fca311;
+    display: flex;
+    padding: 32px;
+    align-items: center;
+}
+
+.left-banner {
+    padding-right: 32px;
+}
+
+.right-banner > button {
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.25rem;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+footer {
+    background-color: #14213d;
+    color: #e5e5e5;
+    padding: 16px;
+    font-weight: 300;
+    text-align: center;
+}
